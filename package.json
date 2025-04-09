@@ -6,7 +6,6 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vinxi dev",
-		"dev:auth": "PORT=3001 bun run --hot auth/index.ts",
 		"build": "vinxi build",
 		"start": "vinxi start"
 	},
