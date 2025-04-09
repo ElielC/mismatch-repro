@@ -1,0 +1,40 @@
+{
+	"name": "repro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "vinxi dev",
+		"dev:auth": "PORT=3001 bun run --hot auth/index.ts",
+		"build": "vinxi build",
+		"start": "vinxi start"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@tailwindcss/postcss": "^4.0.17",
+		"@tanstack/react-form": "^1.2.3",
+		"@tanstack/react-query": "^5.71.1",
+		"@tanstack/react-router": "^1.114.29",
+		"@tanstack/react-router-with-query": "^1.115.0",
+		"@tanstack/react-start": "^1.114.31",
+		"postcss": "^8.5.3",
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0",
+		"tailwindcss": "^4.0.17",
+		"vinxi": "^0.5.3"
+	},
+	"devDependencies": {
+		"@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+		"@types/node": "^22.13.14",
+		"@types/react": "^19.0.12",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react": "^4.3.4",
+		"prettier": "^3.5.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"typescript": "^5.8.2",
+		"vite-tsconfig-paths": "^5.1.4"
+	}
+}
